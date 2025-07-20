@@ -137,7 +137,6 @@ We welcome contributions to evolve CAIP. Follow these steps:
 For major changes, discuss via an issue first. Adhere to Python best practices and include tests/docs.
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
-Acknowledgments
-	•	Built in collaboration with Grok by xAI.
+Acknowledgments.
 	•	Inspired by advancements in prompt compression, symbolic languages, and AI agent protocols.
 For questions, feedback, or issues, please open a GitHub issue.
