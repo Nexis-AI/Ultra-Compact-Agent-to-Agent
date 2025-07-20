@@ -4,7 +4,8 @@
 |  \| | (___   \ V /| (___  
 | . ` |\___ \   > <  \___ \ 
 | |\  |____) | / . \ ____) |
-|_| \_|_____/ /_/ \_\_____/   Compact AI Interchange Protocol (Prototype)
+|_| \_|_____/ /_/ \_\_____/   
+Compact AI Interchange Protocol (Prototype)
 
 <p align="center">
   <b>CAIP · Compact AI Interchange Protocol</b><br/>
