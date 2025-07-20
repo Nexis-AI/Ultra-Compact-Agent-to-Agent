@@ -1,9 +1,5 @@
-███╗   ██╗  ███████╗  ╳╳╳╳╳╳╳  ███████╗  ███████╗
-████╗  ██║  ██╔════╝   ╳╳╳╳╳   ╚══██╔══╝  ██╔════╝
-██╔██╗ ██║  ███████╗    ╳╳╳       ██║     ███████╗
-██║╚██╗██║  ██╔════╝    ╳╳╳       ██║     ╚════██║
-██║ ╚████║  ███████╗   ╳╳╳╳╳   ███████╗  ███████║
-╚═╝  ╚═══╝  ╚══════╝  ╳╳╳╳╳╳╳  ╚══════╝  ╚══════╝
+█▄░█ █▀▀ ▀▄▀ █ █▀
+█░▀█ ██▄ █░█ █ ▄█
 CAIP: Compact AI Interchange Protocol Prototype
 ￼ ￼ ￼ ￼
 Table of Contents
@@ -53,7 +49,6 @@ Usage
 Import the functions and use them to generate or parse CAIP messages.
 # Example usage in Python
 
-# Define symbols and abbreviations (already in the module)
 from caip import generate_caip, parse_caip, SYMBOLS, ABBREVS
 
 # Generate a message
@@ -80,34 +75,34 @@ Generated CAIP:
 ◯A→◯B | Q:inv(X,Y) ●chk<100→ord(Z)∧ntfy(A) | *high | C:#SUM:prevDemand | !low→end
 Parsed Output:
 {
-    "sender": "A",
-    "receiver": "B",
-    "type": "query",
-    "body": "inv(X,Y) [ACTION]chk<100[IMPLIES]ord(Z)[AND]ntfy(A)",
-    "priority": "high",
-    "context": "#SUM:prevDemand",
-    "negate": "low[IMPLIES]end"
+  "sender": "A",
+  "receiver": "B",
+  "type": "query",
+  "body": "inv(X,Y) [ACTION]chk<100[IMPLIES]ord(Z)[AND]ntfy(A)",
+  "priority": "high",
+  "context": "#SUM:prevDemand",
+  "negate": "low[IMPLIES]end"
 }
 Response Message
 Generated CAIP:
 ◯B→◯A | R:inv=80 ●ord(Z) | C:#REF:msg1∧#SUM:cost<10%
 Parsed Output:
 {
-    "sender": "B",
-    "receiver": "A",
-    "type": "response",
-    "body": "inv=80 [ACTION]ord(Z)",
-    "context": "#REF:msg1[AND]#SUM:cost<10%"
+  "sender": "B",
+  "receiver": "A",
+  "type": "response",
+  "body": "inv=80 [ACTION]ord(Z)",
+  "context": "#REF:msg1[AND]#SUM:cost<10%"
 }
 Handshake/Initialization
 Generated CAIP:
 ◯A→◯B | INIT:SEC:enc SHR:C001 ●init
 Parsed Output:
 {
-    "sender": "A",
-    "receiver": "B",
-    "type": "INIT",
-    "body": "SEC:enc SHR:C001 [ACTION]init"
+  "sender": "A",
+  "receiver": "B",
+  "type": "INIT",
+  "body": "SEC:enc SHR:C001 [ACTION]init"
 }
 Extending the Prototype
 	•	Add Symbols/Abbreviations: Update the SYMBOLS and ABBREVS dictionaries.
