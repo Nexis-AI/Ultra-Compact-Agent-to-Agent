@@ -1,5 +1,8 @@
-█▄░█ █▀▀ ▀▄▀ █ █▀
-█░▀█ ██▄ █░█ █ ▄█
+N   N  EEEEE  X   X  IIIII  SSSSS
+NN  N  E      X   X    I    S    
+N N N  EEE     X X     I     SSS 
+N  NN  E        X      I        S
+N   N  EEEEE   X X   IIIII  SSSSS
 CAIP: Compact AI Interchange Protocol Prototype
 ￼ ￼ ￼ ￼
 Table of Contents
