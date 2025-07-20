@@ -1,4 +1,4 @@
-CAIP: Compact AI Interchange Protocol Prototype
+# CAIP: Compact AI Interchange Protocol Prototype
 ￼ ￼ ￼ ￼
 Table of Contents
 	•	Overview
