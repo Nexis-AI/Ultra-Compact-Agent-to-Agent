@@ -1,6 +1,3 @@
-Below is the complete README.md you can copy-and-paste straight into GitHub.
-Everything is pure Markdown (GitHub-flavored), so the layout, badge alignment, Mermaid diagram, and collapsible <details> blocks will render correctly.
-
 ```text
  _   _  _____ __   __ _____ 
 | \ | |/ ____|\ \ / // ____|
